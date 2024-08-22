@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="foto" src="./imagens/foto.png" alt="foto luciane">
+    </header>
+
+    <main>
+
+        <section class="entrada">
+            <textarea class="texto-entrada" cols="40" rows="10" placeholder="Digite seu texto aqui"></textarea>
+              
+            <div class="alerta">
+                <img src= "./imagens/exclamacao2.png" alt="icone exclamacao">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="div__btn__encriptar">
+                <button class="btn-criptografar" onclick="criptografar(event)">Criptografar</button>
+                <button class="btn-descriptografar" onclick="criptografar(event)">Descriptografar</button> 
+            </div>
+        </section>
+
+        <section class="saida">
+
+            <textarea class="texto-saida" cols="20" rows="10"></textarea>
+            <p class="alerta-de-saida"><strong>Nenhuma mensagem encontrada</strong> <br> <br> Digite um texto
+            que você deseja criptografar ou descriptografar. </p>
+
+            <div class="div-btn-copiar">           
+                <button class="btn-copiar" onclick="copiarMensagem(event)">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
