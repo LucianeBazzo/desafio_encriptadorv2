@@ -26,8 +26,8 @@ Decodificador de texto que criptografa e descriptografa mensagens.
 
 ## Acesso ao Projeto
 
-- [https://github.com/LucianeBazzo/desafio-encriptador/tree/main](#)
-- [https://desafio-encriptador-orcin.vercel.app/](#)
+- [https://desafio-encriptadorv2.vercel.app/](#)  
+  
 
 
 
